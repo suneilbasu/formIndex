@@ -11,6 +11,9 @@ class ReportsController < ApplicationController
   		render(:action=> 'new')
   	end
   end
+  def show
+  	@report = Report.find(params[:id])
+  end
   def report_params
   	params.require(:report).permit(:story)
   end
