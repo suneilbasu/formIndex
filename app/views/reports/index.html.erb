@@ -1,0 +1,9 @@
+<h1>Reports#index</h1>
+  <% @reports.each do |h| %>
+    <li> <%= h.story %> </li>
+<% end %>
+<h1> New Article</h1>
+<%= form_for @newReport do |c| %>
+  <%= c.text_field :story %>
+  <%= c.submit "news" %>
+<% end %>

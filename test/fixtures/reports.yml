@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  story: MyString
+  author: MyString
+  pubflag: 1
+
+two:
+  story: MyString
+  author: MyString
+  pubflag: 1
